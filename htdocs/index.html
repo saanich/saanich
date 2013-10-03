@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+	<title>Saanich Home</title>
+	<!--#include virtual="/ui/includes/head.php" -->
+    <meta name="bitly-verification" content="eed2cf5e9e60"/>
+    <link rel="stylesheet" href="/min/index.php/?f=ui/scripts/easy-slider/easy-slider.css" type="text/css" media="screen">
+    <script type="text/javascript" src="/min/index.php/?f=ui/scripts/tHome-actions.js,ui/scripts/easy-slider/easy-slider1.7.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Saanich News Feed" href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew" />
+  </head>
+  <body id="tHome">
+  <!--#include virtual="/ui/includes/header.php" -->
+  <div id="page"><a name="content"></a>
+  <div id="col1">
+	<div id="sect-1">
+	  <h1>Latest News and Public Notices</h1>
+      <div class="scroll"><div id="news">
+      	  <!--#include virtual="/ui/scripts/feeds.php?n=4&c=120&s=/ui/feeds/whatsNew.rss&cat=news" -->
+      </div>
+      <div id="morenews"></div></div>
+      <p class="more"><a href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew">RSS</a> | <a class="moreLink" href="/living/about/news/news.html">More News &amp; Notices</a></p>
+    </div>
+  </div>
+  <div id="col2">
+    <div id="sect-2">
+      <h1>Community Engagement</h1>
+      <div class="scroll"><div id="engagement">
+      <!--#include virtual="/ui/scripts/feeds.php?n=3&c=80&s=/ui/feeds/whatsNew.rss&cat=engagement" -->
+      </div>
+      <div id="moreengagement"></div></div>
+      <p class="more"><a href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew">RSS</a> | <a href="/living/about/news/engagement.html" class="moreLink">More Community Engagement</a></p>
+    </div>
+      <div id="sect-3">
+        <h1>Get Involved</h1>
+        <p class="engage"><a href="/living/about/get-involved/media.html#facebook"><img src="ui/images/icon-fb-32x32.png" width="32" height="32" alt="Facebook"></a> <a href="/living/about/get-involved/media.html#twitter"><img src="ui/images/icon-twitter-32x32.png" width="32" height="32" alt="Twitter"></a> <a href="/living/about/get-involved/media.html#newsletters"><img src="ui/images/icon-newsltr-32x32.png" width="32" height="32" alt="Newsletters"></a> <a href="/living/about/get-involved/media.html#feeds"><img src="ui/images/icon-feeds-32x32.png" width="32" height="32" alt="News Feeds"></a></p>
+        <p><a href="/living/about/get-involved/index.html">Get involved in your community</a></p>
+        <p>
+        Subscribe to services &amp; view project information or volunteer opportunities.</p>
+    </div>
+  </div>
+  <div id="col3">
+    <div id="sect-4">
+      <h1>Featured</h1>
+      <div id="slider">
+	    <ul><!--#include virtual="/ui/scripts/features.php?s=/ui/feeds/features.rss" --></ul>
+      </div>
+    </div>
+    <div id="sect-5">
+      <h1>Events &amp; Calendars</h1>
+      <div id="calendar">
+        <p id="month"><!--#config timefmt="%b" --><!--#echo var="DATE_LOCAL" --></p>
+        <p id="day"><!--#config timefmt="%d" --><!--#echo var="DATE_LOCAL" --></p>
+      </div>
+      <p><a href="/living/about/get-involved/calendar.html">District of Saanich calendars</a></p>
+      <p>Find dates for council meetings, events, festivals, advisories and more.</p>
+    </div>
+  </div>
+  </div>
+  <!--#include virtual="/ui/includes/footer.php" -->
+  <iframe id="emergency" src="https://saanich.ca:8443/webapp/emergencyNotification/iframetest.jsp"></iframe>
+  </body>
+</html>
