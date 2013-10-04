@@ -1,0 +1,10 @@
+#container {
+	border-radius: 5px;
+	behavior: url(/ui/styles/app-toolkit-v2/pie.htc);
+	}
+
+#search #btnG {
+	  font-size: 0px;
+	  line-height: 0;
+	  background: url(search-button-ie.png);
+	}

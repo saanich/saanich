@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-ca"><!-- InstanceBegin template="/Templates/t-default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --><title>Please Tell Us Your Story</title><!-- InstanceEndEditable -->
+<!--#include virtual="/ui/includes/head.php" -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="More Info Box" type="boolean" value="false" -->
+<!-- InstanceParam name="Photo Banner" type="boolean" value="false" -->
+</head>
+<body id="tServices">
+<!--#include virtual="/ui/includes/header.php" -->
+  <div id="page">
+    <div id="breadcrumb">
+<!--#include virtual="/ui/includes/breadcrumb.php" --><!-- InstanceBeginEditable name="Breadcrumb" --><!-- InstanceEndEditable -->
+    </div>
+    <div id="nav-local">
+<!--#include virtual="/ui/scripts/local-nav.php" -->
+	</div>
+    <div id="content">
+      <h1><!--#include virtual="/ui/includes/headline.php" --></h1>
+      <div class="false" id="pic"><!-- InstanceBeginEditable name="Photo Banner 590-810px X 130px" --><!-- InstanceEndEditable --></div>   
+      <div id="summary"><!-- InstanceBeginEditable name="Page Summary" --><!-- InstanceEndEditable --></div>
+      <div class="false" id="more-info">
+        <h2><!-- InstanceBeginEditable name="More Info Title" --><!-- InstanceEndEditable --></h2>
+        <!-- InstanceBeginEditable name="More Info Links" --><!-- InstanceEndEditable -->
+      </div>
+      <!-- InstanceBeginEditable name="Content" -->
+      <p>Our goal is to share inspiring and interesting stories about people who live in our community,
+        with others in our community.</p>
+      <p> We&rsquo;re looking for stories about how real people are experiencing positive changes and how
+        their quality of life has been affected through experiences at our recreation and fitness
+        centres, parks and golf course.</p>
+      <p> We may or may not publish the story... and if we do, it could be in our Leisure Guides, on our
+        website or in advertisements we create!</p>
+      <p> Required fields are indicated
+        with an *.</p>
+      <form name="form" id="form" method="post" action="/cgi-bin/sendstory.pl">
+        <table>
+          <tr>
+            <td>Name: *</td>
+            <td><input name="name" type="text" id="name" size="46" /></td>
+          </tr>
+          <tr>
+            <td>Phone Number: *</td>
+            <td><input name="phone" type="text" id="phone" size="46" /></td>
+          </tr>
+          <tr>
+            <td>E-mail: </td>
+            <td><input name="email" type="text" id="email" size="46" /></td>
+          </tr>
+          <tr>
+            <td>Do you agree to share your story? </td>
+            <td><input type="radio" name="agree" value="Yes">
+              Yes<br />
+              <input type="radio" name="agree" value="No">
+              No </td>
+          </tr>
+          <tr>
+            <td>What is your story? *</td>
+            <td><textarea name="story" rows="13" cols="35"></textarea></td>
+          </tr>
+          <tr>
+            <td>Would you be willing to have your photograph taken? </td>
+            <td><input type="radio" name="photo" value="Yes">
+              Yes<br />
+              <input type="radio" name="photo" value="No">
+              No </td>
+          </tr>
+        </table>
+        <p class="align-centre">
+            <input type="submit" value="Submit" name="sumbit" />
+
+        </p>
+      </form>
+      <p></p>
+      <!-- InstanceEndEditable -->
+    </div>
+<!--#include virtual="/ui/includes/page-tools.php" -->
+  </div>
+<!--#include virtual="/ui/includes/footer.php" -->
+</body>
+<!-- InstanceEnd --></html>

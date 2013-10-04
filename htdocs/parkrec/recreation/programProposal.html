@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-ca"><!-- InstanceBegin template="/Templates/t-default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --><title>Program Proposal</title><!-- InstanceEndEditable -->
+<!--#include virtual="/ui/includes/head.php" -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="More Info Box" type="boolean" value="false" -->
+<!-- InstanceParam name="Photo Banner" type="boolean" value="false" -->
+</head>
+<body id="tServices">
+<!--#include virtual="/ui/includes/header.php" -->
+  <div id="page">
+    <div id="breadcrumb">
+<!--#include virtual="/ui/includes/breadcrumb.php" --><!-- InstanceBeginEditable name="Breadcrumb" --><!-- InstanceEndEditable -->
+    </div>
+    <div id="nav-local">
+<!--#include virtual="/ui/scripts/local-nav.php" -->
+	</div>
+    <div id="content">
+      <h1><!--#include virtual="/ui/includes/headline.php" --></h1>
+      <div class="false" id="pic"><!-- InstanceBeginEditable name="Photo Banner 590-810px X 130px" --><!-- InstanceEndEditable --></div>   
+      <div id="summary"><!-- InstanceBeginEditable name="Page Summary" --><!-- InstanceEndEditable --></div>
+      <div class="false" id="more-info">
+        <h2><!-- InstanceBeginEditable name="More Info Title" --><!-- InstanceEndEditable --></h2>
+        <!-- InstanceBeginEditable name="More Info Links" --><!-- InstanceEndEditable -->
+      </div>
+      <!-- InstanceBeginEditable name="Content" -->
+      <p>Interested in teaching a program at one of our community facilities? Please complete the
+        following form and a Programmer will be in contact with you about your proposal. </p>
+      <p> Please note: Programming for a new season begins approximately 5 months prior to the start
+        date for programs that season.</p>
+      <form name="form" id="form" method="post" action="/cgi-bin/sendprogramproposal.pl">
+        <table>
+          <tr>
+            <td colspan="2"><strong>Contact Information</strong></td>
+          </tr>
+          <tr>
+            <td> Name:</td>
+            <td><input name="name" type="text" id="name" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Date of Application: </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Home Phone: </td>
+            <td><input name="homePhone" type="text" id="homePhone" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Business Phone: </td>
+            <td><input name="businessPhone" type="text" id="businessPhone" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Cell Phone: </td>
+            <td><input name="cellPhone" type="text" id="cellPhone" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>E-mail Address: </td>
+            <td><input name="emailAddress" type="text" id="emailAddress" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Website Address: </td>
+            <td><input name="websiteAddress" type="text" id="websiteAddress" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br>
+            If you are a business please complete the following information:</strong></td>
+          </tr>
+          <tr>
+            <td>Business Name: </td>
+            <td><input name="businessName" type="text" id="businessName" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Business License Number: </td>
+            <td><input name="businessLicenseNumber" type="text" id="businessLicenseNumber" size="35" /></td>
+          </tr>
+          <tr>
+            <td>WCB Number: </td>
+            <td><input name="wcbNumber" type="text" id="wcbNumber" size="35" /></td>
+          </tr>
+          <tr>
+            <td>GST Number: </td>
+            <td><input name="gstNumber" type="text" id="gstNumber" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br>
+            Program Information </strong></td>
+          </tr>
+          <tr>
+            <td>Course Title: </td>
+            <td><input name="courseTitle" type="text" id="courseTitle" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Course Description: </td>
+            <td><textarea name="courseDescription" cols="27" rows="5" wrap="physical" id="courseDescription"></textarea></td>
+          </tr>
+          <tr>
+            <td>Course Format: </td>
+            <td><input type="radio" name="workshopOrSeries" value="Workshop">
+              Workshop<br />
+              <input type="radio" name="workshopOrSeries" value="Series">
+              Series </td>
+          </tr>
+          <tr>
+            <td>Number of Classes: </td>
+            <td><input name="numberOfClasses" type="text" id="numberOfClasses" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Length of Class: </td>
+            <td><input name="lengthOfClass" type="text" id="lengthOfClass" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Number of Classes Per Week: </td>
+            <td><input name="numberOfClassesPerWeek" type="text" id="numberOfClassesPerWeek" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Preferred Days: (please list)</td>
+            <td><input name="preferredDays" type="text" id="preferredDays" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Preferred Time: (please list)</td>
+            <td><input name="preferredTime" type="text" id="preferredTime" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Target Age Group:</strong> (Please list specific age range beside)</td>
+          </tr>
+          <tr>
+            <td>Early Childhood: (1-5yrs)</td>
+            <td><input name="earlyChildhood" type="text" id="earlyChildhood" size="35" /></td>
+          </tr>
+          <tr>
+            <td>School Age: (6-12yrs)</td>
+            <td><input name="schoolAge" type="text" id="schoolAge" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Teen: (13-16yrs)</td>
+            <td><input name="teen" type="text" id="teen" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Adult: (16+yrs)</td>
+            <td><input name="adult" type="text" id="adult" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Participant Numbers:</strong> (Min/Max #'s are based on one instructor)</td>
+          </tr>
+          <tr>
+            <td>Minimum Number of Participants:</td>
+            <td><input name="minimumNumberOfParticipant" type="text" id="minimumNumberOfParticipant" size="35" /></td>
+          </tr>
+          <tr>
+            <td>Maximum Number of Participants:</td>
+            <td><input name="maximumNumberOfParticipant" type="text" id="maximumNumberOfParticipant" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Fees:</strong></td>
+          </tr>
+          <tr>
+            <td>What fee do you currently charge a participant for this program or a similar program?</td>
+            <td><input name="fee" type="text" id="fee" value="$" size="35" /></td>
+          </tr>
+          <tr>
+            <td><br />
+              Does this include supply costs?</td>
+            <td><br />
+              <input type="radio" name="supplyCosts" value="Yes">
+              Yes<br />
+              <input type="radio" name="supplyCosts" value="No">
+              No </td>
+          </tr>
+          <tr>
+            <td> If no, what is the additional fee:</td>
+            <td><input name="additionalFee" type="text" id="additionalFee" value="$" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Room  Requirements:</strong></td>
+          </tr>
+          <tr>
+            <td>Type of Room Required:</td>
+            <td><input type="radio" name="room" value="Classroom">
+              Classroom <br />
+              <input type="radio" name="room" value="Auditorium/Gym">
+              Auditorium/Gym <br />
+              <input type="radio" name="room" value="DanceStudio">
+              Dance Studio <br />
+              <input type="radio" name="room" value="WeightRoom">
+              Weight Room <br />
+              <input type="radio" name="room" value="Other">
+              Other </td>
+          </tr>
+          <tr>
+            <td>If other please specify:</td>
+            <td><input name="otherRoom" type="text" id="otherRoom" size="35" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Equipment  Requirements:</strong></td>
+          </tr>
+          <tr>
+            <td>Number of Tables Required:</td>
+            <td><input name="numberOfTables" type="text" id="numberOfTables" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Number of Chairs Required:</td>
+            <td><input name="numberOfChairs" type="text" id="numberOfChairs" size="35" maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td><p><br />
+              Other Equipment: </p>
+              <em>All program specific equipment is the responsibility of the contractor. No storage of equipment is provided. Please note that we do not have a multimedia projector and laptop.</em></td>
+            <td><br />
+              <input type="checkbox" name="tvvcr" value="yes" />
+              TV/VCR <br />
+              <input type="checkbox" name="soundSystem" value="yes">
+              Sound System <br />
+              <input type="checkbox" name="whiteBoard" value="yes">
+              White Board(Flipchart size) <br />
+              <input type="checkbox" name="sink" value="yes">
+              Sink <br />
+              <input type="checkbox" name="mats" value="yes">
+              Mats <br />
+              <input type="checkbox" name="projector" value="yes">
+              Overhead Projector/Screen </td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong><br />
+              Setup  Requirements:</strong></td>
+          </tr>
+          <tr>
+            <td>Type of Setup Required:</td>
+            <td><input type="radio" name="typeOfSetup" value="Theatre-Style">
+              Theatre-Style <br />
+              <input type="radio" name="typeOfSetup" value="Classroom">
+              Classroom <br />
+              <input type="radio" name="typeOfSetup" value="EmptyRoom">
+              Empty Room <br />
+              <input type="radio" name="typeOfSetup" value="Other">
+              Other </td>
+          </tr>
+          <tr>
+            <td>If other please specify:</td>
+            <td><input name="otherSetup" type="text" id="otherSetup" size="35" /></td>
+          </tr>
+        </table>
+        <p class="align-centre">
+<input type="submit" value="Submit" name="sumbit" />
+        </p>
+      </form>
+      <p></p>
+      <!-- InstanceEndEditable -->
+    </div>
+<!--#include virtual="/ui/includes/page-tools.php" -->
+  </div>
+<!--#include virtual="/ui/includes/footer.php" -->
+</body>
+<!-- InstanceEnd --></html>

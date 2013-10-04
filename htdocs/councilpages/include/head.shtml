@@ -1,0 +1,16 @@
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <link rel="stylesheet" href="/councilpages/styles/styles.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="/councilpages/styles/print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="/councilpages/styles/handheld.css" type="text/css" media="handheld">
+  <style type="text/css">
+	<!--
+	.new {background-color: #CCFF33; color: #006600; font-weight: bold; font-size: small;}
+	.important {color: red;	font-weight: bold;}
+	.important2 {color: red; font-weight: bold; font-size: smaller;}
+	.highlight1 {background-color: #FFCCFF; font-size: smaller;}
+	.highlight2 {background-color: #CCCC33; font-weight: bold;}
+	.highlight3 {background-color: yellow; font-weight: bold;}
+	.smaller {font-size: smaller;}
+	-->
+  </style>

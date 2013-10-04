@@ -1,0 +1,188 @@
+#saanich-header *, #saanich-footer * {margin: 0px; padding: 0px;}
+
+#saanich-header, #saanich-footer {
+	color: #313131;
+	font-family: 'Myriad Pro', Arial, Calibri, 'Gill Sans', 'Helvetica Neue';
+	font-size: small;
+	}
+
+body {
+	background: #083f68 url("bg.jpg") repeat-x;
+	}
+
+.clear { clear: both;}
+
+/* ---------------------------------- Header -------------------------------------- */
+
+#saanich-header {
+	padding: 5px;
+	min-height: 68px;
+	background: #fff;
+	border-bottom: 1px solid black;
+	-webkit-border-top-left-radius: 10px; -moz-border-top-left-radius: 10px; border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px; -moz-border-top-right-radius: 10px; border-top-right-radius: 10px;
+	}
+
+  #saanich-header a {
+	  color: #00C
+	  }
+
+/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
+#logo h1 { 
+	background: transparent url(logo.png) no-repeat top left;
+	width: 275px;
+	height: 68px;
+	float: left;
+	cursor: pointer;
+	}
+
+  #logo h1 span {
+	  display:none
+	  }
+
+#tagline {
+	position: relative;
+	left: -9999px;
+	height: 0px;
+	}
+
+#tools {
+	float: right;
+	margin-bottom: 20px;
+	}
+
+  #tools a {
+	  text-decoration: none;
+	  }
+	  
+	#tools a:hover {
+		text-decoration: underline;
+		}
+	
+	#tools a:visited {
+		color: blue;
+		}
+   
+  #tools ul li {
+	  border-left: 1px solid black;
+	  list-style: none;
+	  display: inline;
+	  padding-left: 5px;
+	  }
+  
+	#tools ul li:first-child {
+		border-left: none;
+		}
+
+#search {
+	clear: right;
+	float: right;
+	}
+
+  #search form fieldset {
+	  border: none;
+	  }
+  
+  #search form legend, #search form label {
+	  border: none;
+	  visibility: hidden;
+	  font-size: 0px;
+	  height: 0px;
+	  width: 0px;
+	  overflow: hidden;
+	  line-height: 0px;
+	  position: absolute;
+	  left: -9999px;
+	  }
+  
+  #search #searchBox {
+	  -webkit-border-top-left-radius: 10px; -moz-border-top-left-radius: 10px; border-top-left-radius: 10px;
+	  -webkit-border-bottom-left-radius: 10px; -moz-border-bottom-left-radius: 10px; border-bottom-left-radius: 10px;
+	  padding: 3px;
+	  width: 170px;
+	  border: 1px solid #988f86;
+	  border-right: none;
+	  outline: 0;
+	  }
+  
+  #search #btnG {
+	  width: 23px;
+	  height: 24px;
+	  padding: 0px;
+	  border: 0px;
+	  background: transparent url(search-button.png) no-repeat top center;
+	  text-indent: -9999em;
+	  cursor: pointer;
+	  }
+  
+  #search input {
+	  vertical-align: middle;
+	  }
+
+/* ---------------------------------- Footer -------------------------------------- */
+
+footer {
+	clear: both;
+	}
+
+#saanich-footer {
+	color: #fff;
+	}
+
+  #saanich-footer h1 {
+	  position: relative;
+	  left: -9999px;
+	  height: 0px;
+	  }
+
+#saanich-footer a {
+	color: #fff;
+	text-decoration: none;
+	}
+	
+#saanich-footer a:hover {
+	text-decoration: underline;
+	}
+
+#saanich-footer #sitemap {
+	background: #707070;
+	border: 1px solid #fff;
+	padding: 5px;
+	overflow: auto;
+	-webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px; border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px;
+	}
+
+#saanich-footer #copy {
+	float: left;
+	}
+
+#saanich-footer #address {
+	float: right;
+	text-align: right;
+	}
+
+#saanich-footer #footer-links ul {
+	float: right;
+	list-style: none;
+	margin: 5px 5px 0px 0px;
+	padding-bottom: 30px;
+	}
+
+#saanich-footer #footer-links ul li {
+	border-left: 1px solid #fff;
+	display: inline;
+	padding: 0px 5px;
+	}
+
+#saanich-footer #footer-links ul li:first-child {
+	border-left: none;
+	}
+
+/* ---------------------------------- Misc -------------------------------------- */
+
+iframe.autosize {
+	overflow: hidden;
+	border: none;
+	width: 100%;
+	}

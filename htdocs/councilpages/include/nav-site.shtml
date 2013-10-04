@@ -1,0 +1,17 @@
+<div id="nav-site">
+<nav>
+  <h1>Site Navigation</h1>
+  <ul>
+    <li><a href="/councilpages/correspondence/index.html">Correspondence<br/>&amp; New items</a></li>
+    <li><a href="/councilpages/reportsMemos/index.html">Reports &amp; Memos</a></li>
+    <li><a href="/councilpages/committees/index.html">Committees</a></li>
+    <li><a href="/councilpages/newsletters/index.html">Newsletters</a></li>
+    <li><a href="/councilpages/invitationsEvents/index.html">Invitations &amp; Events</a></li>
+    <li><a href="/councilpages/notices/index.html">Notices</a></li>
+    <li><a href="/councilpages/resourcesLinks/index.html">Resources &amp; Links</a></li>
+    <li><a href="/councilpages/documentArchives/index.html">Document Archives</a></li>
+    <li><a href="/councilpages/help/index.html">iPad Help</a></li>
+  </ul>
+  <div id="ads"><img src="/councilpages/img/sustainableSaanich.jpg" alt="Sustainable Saanich" width="128" height="40" id="img-sustain"></div>
+</nav>
+</div>

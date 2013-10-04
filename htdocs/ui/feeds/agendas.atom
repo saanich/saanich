@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+<title>Saanich Council Agendas</title>
+<subtitle>Agendas for upcoming and recent meetings. This information has been provided for your convenience only and is subject to change.</subtitle>
+<link href="http://saanich.ca/living/mayor/agendamin/agendamin.html"/>
+<generator uri="http://easy-feed-editor.tk" version="1.0">dotFeedLib</generator>
+<author><name>District of Saanich</name></author>
+<updated>2012-12-04T15:17:32-08:00</updated>
+<link href="http://saanich.ca/webapp/rss/RssFeeder?file=agendas" rel="self" type="application/atom+xml" />
+<entry>
+<title>Council/Committee of the Whole</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/mayor/pdf/agendas/dec3agendapkg.pdf"/>
+<updated>2012-12-03T15:17:00-08:00</updated>
+</entry>
+<entry>
+<title>Draft 2013 - 2017 Strategic Plan</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/mayor/pdf/agendas/draftstrategicplan2013-2017.pdf"/>
+<updated>2012-12-03T15:16:00-08:00</updated>
+</entry>
+<entry>
+<title>Council/Committee of the Whole</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/mayor/pdf/agendas/nov26agendapkg.pdf"/>
+<updated>2012-11-26T15:15:00-08:00</updated>
+</entry>
+<entry>
+<title>Special Council - Joint Meeting with City of Victoria</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/mayor/pdf/agendas/nov21sp%20Council.pdf"/>
+<updated>2012-11-21T15:10:00-08:00</updated>
+</entry>
+<entry>
+<title>Public Hearing</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/mayor/pdf/agendas/nov20phagenda.pdf"/>
+<updated>2012-11-20T14:45:00-08:00</updated>
+</entry>
+</feed>

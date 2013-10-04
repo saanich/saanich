@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+<title>Featured | District of Saanich</title>
+<subtitle>Featured items from the District of Saanich</subtitle>
+<link href="http://www.saanich.ca/"/>
+<generator uri="http://easy-feed-editor.tk" version="1.0">dotFeedLib</generator>
+<updated>2013-10-02T13:31:09-07:00</updated>
+<entry>
+<title>12 New Electric Vehicle Charging Stations</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/living/climate/action/evcs.html"/>
+<link rel="enclosure" href="http://saanich.ca/images/features/Electric-vehicle-charging.jpg" type="image/jpeg" length="140303" title="Enclosure" />
+<updated>2013-04-23T09:40:16-07:00</updated>
+</entry>
+<entry>
+<title>Go Green with Parks &amp; Recreation</title>
+
+<content type="html"><![CDATA[<p>
+	Receive parks &amp; recreation info by e-mail</p>
+]]></content>
+<summary type="html"><![CDATA[<p>
+	Receive parks &amp; recreation info by e-mail</p>
+]]></summary>
+<link rel="alternate" type="text/html" href="http://saanich.ca/recform.html"/>
+<link rel="enclosure" href="http://saanich.ca/images/features/2012-07-go-green.jpg" type="image/jpeg" length="7185" title="Enclosure" />
+<updated>2013-02-07T13:45:39-08:00</updated>
+</entry>
+<entry>
+<title>Fall 2013 Programs &amp; Schedules Register Today!</title>
+<link rel="alternate" type="text/html" href="http://saanich.ca/parkrec/recreation/alg.html"/>
+<link rel="enclosure" href="http://saanich.ca/images/features/2013-Fall-ALGsaanwebad.jpg" type="image/jpeg" length="110650" title="Enclosure" />
+<updated>2013-09-09T15:01:16-07:00</updated>
+</entry>
+</feed>

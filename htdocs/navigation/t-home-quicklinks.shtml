@@ -1,0 +1,19 @@
+   <div id="branding">
+      <ul id="brandImages">
+        <li><img src="images/playfairpano200X1000_000.jpg" width="1000" height="260" alt="Playfair Park Panorama"></li>
+        <li><img src="images/Swanlaketrailpano205x999_000.jpg" width="999" height="205" alt="Swan Lake Trail Panorama"></li>
+        <li><img src="images/pan1-1000x259.jpg" width="997" height="259" alt="Saanich-View"></li>
+      </ul>
+	  <div id="quickLinks">
+        <h1>Quick Links</h1>
+        <ul>
+          <li><a href="/business/employment/postings.html">Job Opportunities</a></li>
+          <li><a href="/parkrec/recreation/dropin/index.html">Recreation Schedules</a></li>
+          <li><a href="/services/gis/index.html">GIS Map Service</a></li>
+          <li><a href="/living/mayor/index.html">Mayor &amp; Council</a></li>
+          <li><a href="http://saanich.ca/webapp/vso/index.jsp">Bid Opportunities</a></li>
+          <li><a href="/services/garbage/collectionschedules.html">Garbage Schedules</a></li>
+          <li><a href="http://saanich.ca/living/about/get-involved/weather.html">Weather &amp; Building Advisories</a></li>
+        </ul>
+      </div>
+    </div>

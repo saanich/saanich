@@ -1,0 +1,319 @@
+/* Style Sheet for GUI Standards */
+/* styles for main application window */
+
+body 
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #DDDDCC
+}
+
+textarea   
+{ 
+	overflow: auto 
+}
+
+p, blockquote, form 
+{
+	font-family:  Arial;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000
+}
+
+p.terms{color: #F41414}
+
+h6.title
+{
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h5 
+{
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h2
+{
+	font-size: 16pt;
+}
+
+h2.expired
+{
+	color: red
+}
+
+form 
+{
+	font-family:  Arial;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000
+}
+
+td.alt 
+{
+	background: #B4C6BB;
+}
+
+td.small 
+{
+	font-size: 8pt;
+}
+
+td.required
+{
+	color: #FF2100;
+}
+
+.imgTable{
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: normal;
+	background-color: DED1CD
+}! important
+
+table, tr, td 
+{
+	font-family: Arial;
+	font-weight: normal;
+	color: #000000;
+	background-color: #BBE695;
+}
+
+table.keyword {
+	border-width: 4px 4px 4px 4px;
+	border-spacing: 2px;
+	border-style: ridge ridge ridge ridge;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: 9C9592;
+}
+table.keyword th {
+	border-width: 0px 0px 0px 0px;
+	padding: 2px 2px 2px 2px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: B6AEAC;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.keyword td {
+	border-width: 0px 0px 0px 0px;
+	padding: 2px 2px 2px 2px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: B6AEAC;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.request {
+	border-width: 4px 4px 4px 4px;
+	border-spacing: 2px;
+	border-style: ridge ridge ridge ridge;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: B6AEAC;
+	font-size: 11pt;
+}
+table.request th {
+	border-width: 0px 0px 0px 0px;
+	padding: 2px 2px 2px 2px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: B6AEAC;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.request td {
+	border-width: 0px 0px 0px 0px;
+	padding: 2px 2px 2px 2px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: B6AEAC;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+.contentTable{
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #97C897;
+	padding: 1;
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+        border-spacing: 0px;
+        text-align: center;
+}
+
+.navTable{
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #DDCDBC;
+	padding: 1;
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+        border-spacing: 0px
+}
+
+.sideNavTable{
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFD889;
+	padding: 1;
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+        border-spacing: 0px
+}
+
+.footerTable{
+	font-family: Arial;
+	font-size: 7pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #DDCDBC;
+	padding: 1;
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+        border-spacing: 0px
+}
+
+.thumbTable{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	background-color: #969595;
+	padding: 1;
+	font-family: Arial;
+	font-size: 8pt;
+	font-style: italic;
+	text-align:center;
+	margin:1em auto;
+}
+
+body,input,textarea, select{
+font-family:Helvetica,sans-serif;
+}
+
+.thumbTd{
+	padding:.3em 1em 1em 1em;
+}
+
+th 
+{
+	font-family: Arial;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #00533E;
+}
+
+ol, ul, li, dl, dt, dd 
+{
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000
+}
+
+#navcontainer
+{
+width: 190px;
+border-right: 1px solid #000;
+padding: 0 0 0 0;
+margin-bottom: 0em;
+font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+background-color: #FFD889;
+color: #333;
+}
+
+#navcontainer ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#navcontainer li
+{
+border-bottom: 1px solid #010101;
+margin: 0;
+font-size: 10pt;
+font-weight: bold;
+}
+
+#navcontainer li a
+{
+display: block;
+padding: 5px 5px 5px 0.5em;
+border-left: 10px solid #E9C57C;
+border-right: 10px solid #E9C57C;
+background-color: #E9C57C;
+color: #000000;
+text-decoration: none;
+width: 100%;
+font-size: 10pt;
+}
+
+html>body #navcontainer li a { width: auto; }
+
+#navcontainer li a:hover
+{
+border-left: 10px solid #FFD889;
+border-right: 10px solid #FFD889;
+background-color: #FFD889;
+color: #000000;
+font-size: 10pt;
+}
+
+#photosText
+{
+font-family: Arial;
+font-size: 8pt;
+font-style: italic;
+color: #000000
+}
+
+#newPhotoHeader
+{
+font-family: Arial;
+font-size: 12pt;
+font-style: bold;
+color: #000000
+}
+
+.imageborder
+{
+width:0px;
+cursor:hand;
+border:1px solid black;
+}
+.image 
+{
+border:2px; border-thickness: 1px; border-color: #C24804; border-style: solid;
+}
+
+a:link .image { border-color: #165804; color: #165804 text-decoration: none}
+a:visited .image { border-color: #165804; color: #165804 text-decoration: none}
+a:link {color: #3C260F; text-decoration: none}
+A:visited {color: #3C260F; text-decoration: none}
+A:active {color: #0839EC; text-decoration: none}
+A:hover {color: #CE802E;}
+a:hover .image { border-color: #F0A500;}
+
+
+
+
+
+

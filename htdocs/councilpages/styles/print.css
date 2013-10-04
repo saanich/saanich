@@ -1,0 +1,33 @@
+/* Style Sheet for Council Info Website Screen view*/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+
+img {
+	border: none;
+}
+
+/************************* Hide  *********************************/
+
+#top a, #nav-tools h1, #nav-site h1, #logo, #nav-tools, #privacy, #nav-site {
+	display: none;
+}
+
+/************************* Margins  *********************************/
+
+body, #theme-default, #page, #footer {
+	clear: both;
+	float: none;
+	width: auto;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	border: none;
+}

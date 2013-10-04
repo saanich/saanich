@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <title>Saanich Web Application</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+      $.getScript("iframe-auto-height.js", function() {
+          $('iframe.autosize').iframeAutoHeight();
+      });
+    </script>
+  <!--#include file="head.php" -->
+</head>
+<body id="tWebapp">
+	<!--#include virtual="header.php" -->
+
+      <iframe id="maincalendar" class="autosize" frameborder="0" src="/cgi-bin/calendar.pl"></iframe>
+      
+    <!--#include virtual="footer.php" -->
+</body>
+</html>
