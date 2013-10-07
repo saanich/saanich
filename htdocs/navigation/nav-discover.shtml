@@ -3,9 +3,9 @@
   <li><a href="/discover/artsheritagearc/index.html">Arts, Heritage &amp; Archives</a>
     <ul>
       <li><a href="/discover/artsheritagearc/arts/index.html">Arts</a>
-<ul>
+        <ul>
           <li><a href="/discover/artsheritagearc/arts/public/index.html">Public Art</a>
-<ul>
+            <ul>
               <li> <a href="/discover/artsheritagearc/arts/public/acch.html">Forest Edge</a></li>
               <li><a href="/discover/artsheritagearc/arts/public/moment.html">In The Moment</a></li>
               <li><a href="/discover/artsheritagearc/arts/public/camossung.html">Camossung</a></li>
@@ -19,7 +19,7 @@
         </ul>
       </li>
       <li><a href="/discover/artsheritagearc/heritage/index.html">Heritage</a>
-<ul>
+        <ul>
           <li><a href="/discover/artsheritagearc/heritage/heritage.html">Saanich Heritage Information</a>
             <ul>
               <li><a href="/discover/artsheritagearc/heritage/banners.html">Centennial Heritage Banners</a></li>
@@ -41,7 +41,7 @@
         </ul>
       </li>
       <li><a href="/discover/artsheritagearc/saanicharchives/index.html">Archives</a>
-<ul>
+        <ul>
           <li><a href="/discover/artsheritagearc/saanicharchives/welcome.html">News &amp; Events</a>
             <ul>
               <li><a href="/discover/artsheritagearc/saanicharchives/acquisitions.html">Acquisitions</a></li>
@@ -54,6 +54,8 @@
           </li>
           <li><a href="/discover/artsheritagearc/saanicharchives/research.html">Research</a></li>
           <li><a href="/discover/artsheritagearc/saanicharchives/collections.html">Collections</a></li>
+          <li><a href="/discover/artsheritagearc/saanicharchives/census.html">1911 &amp; 1921 Census Project</a></li>
+          <li><a href="/discover/artsheritagearc/saanicharchives/saanichremembers.html">Saanich Remembers World War One</a></li>
           <li><a href="/discover/artsheritagearc/saanicharchives/exhibits/index.html">Exhibits</a>
             <ul>
               <li><a href="/discover/artsheritagearc/saanicharchives/exhibits/goward/index.html">Goward Collection</a></li>
