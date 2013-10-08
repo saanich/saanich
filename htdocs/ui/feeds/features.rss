@@ -5,7 +5,18 @@
 <description>Featured items from the District of Saanich</description>
 <link>http://www.saanich.ca/</link>
 <language>en-us</language>
-<pubDate>Wed, 02 Oct 2013 20:31:09 GMT</pubDate>
+<pubDate>Fri, 04 Oct 2013 21:19:16 GMT</pubDate>
+
+<item>
+<title>Water Main Flushing Notification</title>
+<description><![CDATA[<p>
+	Register for advance notice in your area.</p>
+]]></description>
+<link>http://saanich.ca/services/utilities/mainflushing.html</link>
+<guid  isPermaLink="false">8c4ea86d-70c5-49b5-97fb-a503da310a94</guid>
+<pubDate>Fri, 04 Oct 2013 21:19:16 GMT</pubDate>
+<enclosure url=" http://saanich.ca/images/features/hydrant-flush.jpg" type="image/jpeg" length="3104506" />
+</item>
 
 <item>
 <title>12 New Electric Vehicle Charging Stations</title>

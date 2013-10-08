@@ -6,8 +6,41 @@
 <description>District of Saanich News Feed</description>
 <link>http://www.saanich.ca/</link>
 <language>en-us</language>
-<pubDate>Fri, 04 Oct 2013 15:28:01 GMT</pubDate>
+<pubDate>Mon, 07 Oct 2013 20:56:29 GMT</pubDate>
 <atom:link href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew" rel="self" type="application/rss+xml" />
+
+<item>
+<title>Panama Flats Planning Process Open House</title>
+<description><![CDATA[<p>
+	Drop by Northridge School on October 23rd between 4pm-8pm.</p>
+]]></description>
+<link>http://10.10.10.45/parkrec/parks/projects/planninganddesignconcepts/panamaflatsmanagementplan.html</link>
+<category>engagement</category>
+<guid  isPermaLink="false">374b722c-ad7c-4c14-aaf3-f3976767681e</guid>
+<pubDate>Mon, 07 Oct 2013 20:56:29 GMT</pubDate>
+</item>
+
+<item>
+<title>ICBC/Saanich Reflectivity Campaign</title>
+<description><![CDATA[<p>
+	Tips for pedestrians, cyclists and drivers in the fall and winter months.</p>
+]]></description>
+<link>http://saanichpolice.ca/index.php/public-information/media-releases/858-reflectivity-campaign-tips-for-pedestrians-cyclists-and-drivers-in-fall-and-winter-months</link>
+<category>news</category>
+<guid  isPermaLink="false">585da6fd-fc5a-4b07-8910-7d6e466f606b</guid>
+<pubDate>Mon, 07 Oct 2013 20:49:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Water Main Flushing Oct. 7th - Dec. 20th</title>
+<description><![CDATA[<p>
+	Register to receive advance notice of water main flushing in your immediate area.</p>
+]]></description>
+<link>http://www.saanich.ca/services/utilities/mainflushing.html</link>
+<category>news</category>
+<guid  isPermaLink="false">c4ca2273-affa-4317-bd53-45a1ed9baf8a</guid>
+<pubDate>Fri, 04 Oct 2013 21:20:38 GMT</pubDate>
+</item>
 
 <item>
 <title>Gorge Road West Closure Extended</title>

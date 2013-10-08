@@ -4,8 +4,47 @@
 <subtitle>District of Saanich News Feed</subtitle>
 <link href="http://www.saanich.ca/"/>
 <generator uri="http://easy-feed-editor.tk" version="1.0">dotFeedLib</generator>
-<updated>2013-10-04T08:28:01-07:00</updated>
+<updated>2013-10-07T13:56:29-07:00</updated>
 <link href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew" rel="self" type="application/atom+xml" />
+<entry>
+<title>Panama Flats Planning Process Open House</title>
+
+<content type="html"><![CDATA[<p>
+	Drop by Northridge School on October 23rd between 4pm-8pm.</p>
+]]></content>
+<summary type="html"><![CDATA[<p>
+	Drop by Northridge School on October 23rd between 4pm-8pm.</p>
+]]></summary>
+<link rel="alternate" type="text/html" href="http://10.10.10.45/parkrec/parks/projects/planninganddesignconcepts/panamaflatsmanagementplan.html"/>
+<category label="engagement" term="engagement"/>
+<updated>2013-10-07T13:56:29-07:00</updated>
+</entry>
+<entry>
+<title>ICBC/Saanich Reflectivity Campaign</title>
+
+<content type="html"><![CDATA[<p>
+	Tips for pedestrians, cyclists and drivers in the fall and winter months.</p>
+]]></content>
+<summary type="html"><![CDATA[<p>
+	Tips for pedestrians, cyclists and drivers in the fall and winter months.</p>
+]]></summary>
+<link rel="alternate" type="text/html" href="http://saanichpolice.ca/index.php/public-information/media-releases/858-reflectivity-campaign-tips-for-pedestrians-cyclists-and-drivers-in-fall-and-winter-months"/>
+<category label="news" term="news"/>
+<updated>2013-10-07T13:49:00-07:00</updated>
+</entry>
+<entry>
+<title>Water Main Flushing Oct. 7th - Dec. 20th</title>
+
+<content type="html"><![CDATA[<p>
+	Register to receive advance notice of water main flushing in your immediate area.</p>
+]]></content>
+<summary type="html"><![CDATA[<p>
+	Register to receive advance notice of water main flushing in your immediate area.</p>
+]]></summary>
+<link rel="alternate" type="text/html" href="http://www.saanich.ca/services/utilities/mainflushing.html"/>
+<category label="news" term="news"/>
+<updated>2013-10-04T14:20:38-07:00</updated>
+</entry>
 <entry>
 <title>Gorge Road West Closure Extended</title>
 
