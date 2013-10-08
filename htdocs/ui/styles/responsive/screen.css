@@ -1050,9 +1050,7 @@ iframe.right,
 .caption.right  {float:right; margin: 0 0 10px 10px ;}
 
 .new {background:#bada55;}
+.old {background:#eee;}
 .border {border: 1px solid #666;}
 .padded {padding:10px;}
 .margin {margin:10px;}
-
-
-
