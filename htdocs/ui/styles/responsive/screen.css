@@ -1010,6 +1010,49 @@ iframe.autosize {  /* iFrame jQuery plugin */
 
 .highlight-box { border: 1px solid #FBE66F; background-color:#FEFBC2; padding: 5px;}
 .highlight-box-2 { border: 1px solid #222222; background-color:#e6f2ff; padding: 5px; margin-left: 25px; margin-right: 25px;}
-  .highlight-box-2 h2 {border-bottom: 1px solid black;}
+.highlight-box-2 h2 {border-bottom: 1px solid black;}
+
+.caption {
+display: block;
+line-height: 25px;
+text-align: center;
+clear: both;
+padding: 7px;
+margin-bottom: 1em;
+margin-top: .5em;
+text-decoration: none;
+border: 1px solid #ddd;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color: #666;
+background: #EEE;
+background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+background-image: -ms-linear-gradient(top, #f5f5f5, #f1f1f1);
+background-image: -o-linear-gradient(top, #f5f5f5, #f1f1f1);
+background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+}
+.caption img, 
+.caption iframe{
+border: 0 none;
+margin: 0;
+padding: 0;}
+
+
 
 .left {float:left;}
+img.left,
+iframe.left,
+.caption.left {float:left; margin: 0 10px 10px 0;}
+.right {float:right;}
+img.right,
+iframe.right,
+.caption.right  {float:right; margin: 0 0 10px 10px ;}
+
+.new {background:#bada55;}
+.border {border: 1px solid #666;}
+.padded {padding:10px;}
+.margin {margin:10px;}
+
+
+
