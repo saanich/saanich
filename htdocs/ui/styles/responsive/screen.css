@@ -1011,3 +1011,5 @@ iframe.autosize {  /* iFrame jQuery plugin */
 .highlight-box { border: 1px solid #FBE66F; background-color:#FEFBC2; padding: 5px;}
 .highlight-box-2 { border: 1px solid #222222; background-color:#e6f2ff; padding: 5px; margin-left: 25px; margin-right: 25px;}
   .highlight-box-2 h2 {border-bottom: 1px solid black;}
+
+.left {float:left;}
