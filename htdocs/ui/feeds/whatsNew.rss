@@ -6,15 +6,37 @@
 <description>District of Saanich News Feed</description>
 <link>http://www.saanich.ca/</link>
 <language>en-us</language>
-<pubDate>Mon, 07 Oct 2013 20:56:29 GMT</pubDate>
+<pubDate>Wed, 09 Oct 2013 22:44:13 GMT</pubDate>
 <atom:link href="http://saanich.ca/webapp/rss/RssFeeder?file=whatsnew" rel="self" type="application/rss+xml" />
+
+<item>
+<title>Notice of Permissive Tax Exemption</title>
+<description><![CDATA[<p>
+	Proposed exemption from property taxes for church at 4054 Carey Road.</p>
+]]></description>
+<link>http://saanich.ca/living/about/news/2013/notice-of-permissive-tax-exemption.html</link>
+<category>news</category>
+<guid  isPermaLink="false">d8058f52-8359-4b3c-8623-f82180a16021</guid>
+<pubDate>Wed, 09 Oct 2013 22:44:13 GMT</pubDate>
+</item>
+
+<item>
+<title>Shelbourne Valley Action Plan Open Houses</title>
+<description><![CDATA[<p>
+	Share your thoughts on the draft plan!&nbsp; Open houses start Oct. 29th.</p>
+]]></description>
+<link>http://saanich.ca/business/actionplan/shelbourne.html</link>
+<category>engagement</category>
+<guid  isPermaLink="false">2a31bcf2-a4ea-4298-89e7-3da87be1d5b7</guid>
+<pubDate>Mon, 07 Oct 2013 23:29:50 GMT</pubDate>
+</item>
 
 <item>
 <title>Panama Flats Planning Process Open House</title>
 <description><![CDATA[<p>
 	Drop by Northridge School on October 23rd between 4pm-8pm.</p>
 ]]></description>
-<link>http://10.10.10.45/parkrec/parks/projects/planninganddesignconcepts/panamaflatsmanagementplan.html</link>
+<link>http://saanich.ca/parkrec/parks/projects/planninganddesignconcepts/panamaflatsmanagementplan.html</link>
 <category>engagement</category>
 <guid  isPermaLink="false">374b722c-ad7c-4c14-aaf3-f3976767681e</guid>
 <pubDate>Mon, 07 Oct 2013 20:56:29 GMT</pubDate>
