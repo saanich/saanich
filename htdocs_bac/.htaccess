@@ -1,9 +1,0 @@
-Options +Includes
-AddType text/html .shtml
-setOutputFilter INCLUDES
-
-Options -Indexes
-ErrorDocument 404 /include/error/404.html
-ErrorDocument 403 /include/error/403.html
-ErrorDocument 401 /include/error/401.html
-
